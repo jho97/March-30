@@ -41,15 +41,15 @@
 //     return unique
 // }
 
-// function hasUniqueCharcters (str) {
-//     for (let i = 0; i < str.length; i++) {
-//         if (str.indexOf(str[i]) !== str.lastIndexOf(str[i])) {
-//             return false
-//         }
-//     }
-//     return true
-// }
-// console.log(hasUniqueCharcters('onOam'))
+function hasUniqueCharcters (str) {
+    for (let i = 0; i < str.length; i++) {
+        if (str.indexOf(str[i]) !== str.lastIndexOf(str[i])) {
+            return false
+        }
+    }
+    return true
+}
+console.log(hasUniqueCharcters('onOam'))
 
 
 //Notes from class on call back functions
@@ -100,9 +100,9 @@
 
     // console.log(reduced)
     
-    //chaing methods
-    const numArray = [0, 1, 2, 3, 4]
+    //chaining methods
+    // const numArray = [0, 1, 2, 3, 4]
 
-    const myNum = numArray.filter(num => num > 2).map(num => num * 3).reduce((acc, curr) => acc - curr)
+    // const myNum = numArray.filter(num => num > 2).map(num => num * 3).reduce((acc, curr) => acc - curr)
     
-    console.log(myNum)
+    // console.log(myNum)
